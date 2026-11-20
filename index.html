@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio of Beimnet Eshetu, Computer Science and Engineering student interested in cybersecurity." />
+  <title>Beimnet Eshetu | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a href="#home" class="logo">&lt;BE/&gt;</a>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+      <button id="theme-toggle" aria-label="Toggle dark and light mode">🌙</button>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <p class="eyebrow">Hello, I'm</p>
+      <h1>Beimnet Eshetu</h1>
+      <p class="tagline">
+        Computer Science and Engineering student<br />
+        learning web development and cybersecurity.
+      </p>
+      <a href="#projects" class="btn">See my projects</a>
+    </section>
+
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        I am a Computer Science and Engineering (CSE) student with a strong
+        interest in cybersecurity. I enjoy understanding how systems work and
+        how to keep them safe. I am learning web development so I can build
+        secure, well-designed websites and applications.
+      </p>
+      <p>
+        My goal is to grow into a developer who writes code with security in
+        mind from the very first line.
+      </p>
+    </section>
+
+    <section id="skills">
+      <h2>Skills &amp; Learning</h2>
+      <div class="cards">
+        <div class="card">
+          <h3>Web Development</h3>
+          <p>HTML, CSS, JavaScript (learning)</p>
+        </div>
+        <div class="card">
+          <h3>Computer Science</h3>
+          <p>Programming fundamentals, problem solving</p>
+        </div>
+        <div class="card">
+          <h3>Cybersecurity</h3>
+          <p>Security basics, safe coding practices (learning)</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="cards">
+        <div class="card">
+          <h3>Personal Portfolio</h3>
+          <p>This website, built with HTML, CSS, and JavaScript as my first web project.</p>
+        </div>
+        <div class="card">
+          <h3>Password Strength Checker</h3>
+          <p>Coming soon: a small tool that rates how strong a password is.</p>
+        </div>
+        <div class="card">
+          <h3>Bootcamp Projects</h3>
+          <p>Coming soon: I will add what I build during the bootcamp.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Want to get in touch? Send me a message.</p>
+      <form id="contact-form" novalidate>
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" />
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" />
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="4"></textarea>
+
+        <p id="form-status" role="status"></p>
+        <button type="submit" class="btn">Send</button>
+      </form>
+      <p class="links">
+        <!-- Replace the # with your real links -->
+        <a href="#">GitHub</a> ·
+        <a href="#">LinkedIn</a> ·
+        <a href="mailto:your-email@example.com">your-email@example.com</a>
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; <span id="year"></span> Beimnet Eshetu</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
